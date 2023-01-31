@@ -24,10 +24,7 @@ const schema = {
 const options = {
   confKey: 'config',
   schema,
-  dotenv: {
-    path: `${__dirname}/.env`,
-    debug: true
-  },
+  dotenv: true,
   data: process.env
 }
 
